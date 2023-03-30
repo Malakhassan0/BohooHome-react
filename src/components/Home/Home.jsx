@@ -195,13 +195,13 @@ export default function Home() {
         <div className="col-md-6 d-flex justify-content-around">
             <div className='d-flex flex-column text-center support'>
                 <h4>Support</h4>
-                <Link to="" className='supp-link'>Contactus</Link>
-                <Link to="" className='supp-link'>About</Link>
+                <Link to="contact" className='supp-link'>Contactus</Link>
+                <Link to="about" className='supp-link'>About</Link>
             </div>
       
             <div className='d-flex flex-column text-center  support'>
                 <h4>Products</h4>
-                <Link to="" className='supp-link'>Shop</Link>
+                <Link to="shop" className='supp-link'>Shop</Link>
             </div>
             </div>
    
