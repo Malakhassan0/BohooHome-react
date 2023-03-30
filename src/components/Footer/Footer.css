@@ -1,0 +1,38 @@
+/* global style */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } */
+  /* :root{ */
+    /* EEE9DA */
+    /* faf8ef */
+  
+    /* --nav-color: #e3dac8;
+    --text-color: #AA5656;
+    --body-color: #dacfc4;
+    --icons-color:#bcaea5;
+    --transition: 1s;
+  
+  } */
+
+  
+  /* footer */
+  .a{
+      
+    color: var(--text-color);
+    transition: var(--transition);
+}
+.a:hover{
+  color: var(--text-color);
+  font-weight: 900;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+footer {
+  
+background-color: var(--nav-color);
+}
+footer p{
+color: var(--text-color);
+}

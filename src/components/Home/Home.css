@@ -1,0 +1,336 @@
+/* global style */
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  :root{ */
+    /* EEE9DA */
+    /* faf8ef */
+  
+    /* --nav-color: #e3dac8;
+    --text-color: #AA5656;
+    --body-color: #dacfc4;
+    --icons-color:#bcaea5;
+    --transition: 1s;
+  
+  } */
+  /* carousel */
+  /* .carousel{
+    background-color: var(--body-color);
+  
+  } */
+  .carousel-indicators{
+    position: absolute;
+    top: 94%;
+  }
+  .carousel-inner{
+    filter: brightness(65%);
+    /* min-height: calc(99vh - 86.71px); */
+    height:calc(100vh - 73.95px);
+    object-fit:cover;
+  }
+  .carousel-item img{
+    width: 100%;
+    height: 615px;
+  }
+  
+  .carousel-item{
+    background-position: bottom;
+    object-fit: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+  
+  
+  /* shipping section */
+  .shipping{
+    background-color: #dacfc421;
+    padding:2rem 0;
+    
+    display: flex;
+    align-items: center;
+  }
+  .shipping i{
+  color: var(--text-color);
+  font-size: 1.8rem;
+  
+  }
+  .shipping i:hover{
+  color:var(--icons-color);
+  /* rgb(174, 120, 82); */
+  font-size: 2rem;
+  
+  }
+  .shipping p{
+    color: var(--text-color);
+    margin-bottom: 0;
+  }
+  .shipping .text-muted{
+    font-size: 0.8rem;
+    color: gray !important;
+  }
+  /* responsive shipping */
+  @media screen and (max-width:761px){
+  
+    .box{
+        margin: 1rem 2rem;
+    }
+  }
+  /* colllection */
+  .shop-now h2{
+    color: var(--icons-color);
+    font-weight: 800;
+  }
+  .shop-now span{
+    color: var(--text-color);
+  }
+  .shop-now p{
+  
+    color: var(--text-color);
+  }
+  .shop-now button a{
+    border: 1px solid var(--text-color);
+    color: var(--text-color)!important;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 6px 10px;
+    border-radius: 5px;
+    transition: var(--transition);
+  }
+  .shop-now button a:hover{
+    
+    transition: var(--transition);
+    background-color: var(--body-color);
+    color: var(--text-color);
+    border: 1px solid var(--body-color);
+  }
+  
+  /* responsive shop-now */
+  /* @media screen and (min-width:531px ) and (max-width:697px) {
+    .shop-now img{
+        width: 39rem !important;
+    }
+  } */
+  /* @media screen and (max-width:531px) {
+    .shop-now img{
+        width: 26rem !important;
+    }
+  }
+   */
+  
+  /* collection */
+  .collection{
+    background-color: #dacfc421;
+  }
+  .collection h2{
+    color: var(--text-color);
+    font-family:'FontAwesome';
+    line-height: 1.5;
+      letter-spacing: 10px;
+  }
+  
+  .img-1,.img-2,.img-3{
+    box-shadow: 0px 0px 6px #000000;
+  }
+  .left-round{
+    border-top-left-radius: 52px;
+  }
+  .img-div{
+    position: relative;
+    overflow: hidden;  
+    
+  }
+  .img-div::after{
+    content: '';
+    background-color: rgba(0, 0, 0,0.6);
+    width: 100%;
+    height: 100%; 
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: 1.5s;
+  }
+  .img-div:hover::after{
+    top: 100%;
+    /* transition: var(--transition); */
+   }
+  .right-round{
+    border-bottom-right-radius: 52px;
+  }
+  
+  .living{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    transition: var(--transition) var(--transition);
+    letter-spacing: 4px;
+  }
+  .img-div:hover .living{
+    display: none;
+  }
+  
+  /* bgImg */
+  .bg-img{
+    position: relative;
+    overflow: hidden;
+  }
+  .main{
+    background: url(/public/images/newsletter-1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    transition: var(--transition);
+    filter: brightness(.6);
+    /* opacity: .7; */
+    overflow: hidden;
+    height: 100vh;
+    
+  }
+  .subs{
+    width: 50% !important;
+  }
+  @media screen and (min-width:320px ) and (max-width:356px){
+    .subs button{
+      left: 67%;
+      font-size: 5px;
+      font-weight: 700;
+      width: 15%;
+      padding: 6px 0 !important;
+    }
+    .subs{
+      width: 75% !important;
+    }
+    .subs h3{
+      font-size: .8rem;
+    }
+    .subs input{
+      width: 100% !important;
+      font-size: 7px !important;
+      font-weight: 500;
+    }
+  }
+  /* .main:hover{
+   
+  transform: scale(1.1);
+  } */
+  
+  .text{
+    background-color: var(--text-color);
+    color: var(--body-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 111;
+  }
+  
+  .text button{
+    background-color: var(--icons-color);
+    color: var(--text-color);
+    padding: 5px 9px;
+    right: 13.3rem;
+    transition: var(--transition);
+  }
+  .text button:hover{
+    background-color: var(--text-color);
+    color: var(--icons-color);
+    padding: 6px 9px;
+   border: 1px solid var(--icons-color);
+  }
+  
+  /* category */
+  .card-1{
+    transform: translate(-50%,-50%);
+    
+  }
+  
+  .card-1 button{
+    transition: var(--transition);
+    color: var(--text-color);
+  }
+  .card-1 button:hover{
+    background-color: var(--text-color);
+    color: white;
+    border: none !important;
+  }
+  .cardd{
+    transition: var(--transition);
+    overflow: hidden;
+  }
+  
+  .cardd:hover{
+    transform: scale(1.1);
+  }
+   
+  @media screen and (min-width:320px) {
+    .cardd{
+      margin-top: 4rem !important;
+    }
+    .img-div{
+      margin-bottom: 1rem !important;
+    }
+  }
+  @media screen and (max-width:576px){
+    .img-div{
+      width: 97% !important;
+    }
+    
+  }
+  
+  
+  /* welcome */
+  .welcome{
+    background-color: var(--nav-color);
+    
+  }
+  .welcome-p{
+   color: var(--icons-color);
+  
+  }
+  .design{
+    color: var(--text-color);
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  .welcome button{
+    border: 2px solid var(--icons-color);
+    border-radius: 8px;
+    color: var(--text-color);
+    transition: var(--transition);
+    font-weight: bold;
+    max-width: 8rem;
+  }
+  .welcome button:hover{
+    background-color: var(--text-color);
+    color: var(--icons-color);
+    /* border: none;   */
+  }
+  /* foot */
+  
+  .foot{
+    background-color: var(--nav-color);
+    
+  }
+  .foot p{
+    color: var(--text-color);
+  }
+  .support h4{
+    color: var(--text-color);
+  }
+  .supp-link{
+    color: var(--text-color);
+    text-decoration: none;
+  }
+  .supp-link:hover{
+    color: var(--text-color);
+    font-weight: 600;
+  }

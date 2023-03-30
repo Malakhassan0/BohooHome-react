@@ -1,0 +1,17 @@
+.about .container p{
+    color: var(--text-color);
+}
+.about .container h3{
+    color: var(--icons-color);
+}
+.about img{
+    filter: brightness(50%);
+    max-height: calc(100vh - 128.95px);
+    /* background-attachment: fixed; */
+}
+.im{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+  
+}

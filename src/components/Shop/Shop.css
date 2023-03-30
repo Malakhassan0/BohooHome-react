@@ -1,0 +1,28 @@
+.products{
+   
+    overflow: hidden;
+}
+#button1{
+    width: 80%;
+    background-color: #D0B8B0;
+    color: var(--text-color);
+    transition: var(--transition);
+    font-weight: bold; 
+}
+#button1:hover{
+    background-color: var(--text-color);
+    color: var(--icons-color);
+      
+}
+#ink{
+    color: var(--text-color);
+}
+.carddd{
+    background-color: #dacfc421 !important;
+}
+.carddd img{
+    height: 420px !important;
+}
+.it-cat{
+    color: var(--text-color);
+}

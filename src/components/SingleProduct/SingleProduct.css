@@ -1,0 +1,12 @@
+#button2{
+    width: 50%;
+    background-color: #D0B8B0;
+    color: var(--text-color);
+    transition: var(--transition);
+    font-weight: bold; 
+}
+#button2:hover{
+    background-color: var(--text-color);
+    color: var(--icons-color);
+      
+}

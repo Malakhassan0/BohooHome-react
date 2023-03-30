@@ -1,0 +1,35 @@
+/* registeration and sign-in pages */
+.regist form{
+    background-color: var(--body-color);
+    color: var(--text-color);
+    font-weight: bold;
+    /* top: 50%;
+    position: fixed; */
+    /* transform: translate(0%, -60%); */
+}
+#regist-btn{
+  width: 8rem;
+  background-color: #D0B8B0;
+    color: var(--text-color);
+    transition: var(--transition);
+    font-weight: bold;
+    max-width: 9rem;
+}
+#regist-btn:hover{
+    background-color: var(--text-color);
+    color: var(--icons-color);
+    /* border: none; */
+}
+
+@media screen and (min-width:430px) and (max-width:700px) {
+  .regist label{
+    font-size:15px !important;
+  }
+  .regist input{
+    font-size:8px !important;
+  }
+  #regist-btn{
+    font-size: 12px !important;
+  }
+  
+ }

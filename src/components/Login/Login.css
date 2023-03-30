@@ -1,0 +1,41 @@
+/* registeration and login pages */
+.login{
+    display: flex;
+    align-items: center;
+    height:calc(100vh - 150px);
+  }
+  
+  .login form{
+      background-color: var(--body-color);
+      color: var(--text-color);
+      font-weight: bold;
+      height: 300px;
+  }
+  #login-btn{
+    /* margin-bottom: 3rem; */
+     
+      background-color: #D0B8B0;
+      color: var(--text-color);
+      transition: var(--transition);
+      font-weight: bold;
+      max-width: 8rem;
+  }
+  #login-btn:hover{
+      background-color: var(--text-color);
+      color: var(--icons-color);
+      /* border: none;   */
+  }
+  
+  
+   @media screen and (min-width:430px) and (max-width:700px) {
+    form label{
+      font-size:15px !important;
+    }
+    form input{
+      font-size:8px !important;
+    }
+    #login-btn{
+      font-size: 12px !important;
+    }
+    
+   }

@@ -1,0 +1,76 @@
+.contact h1{
+    color: #e5e5e5;
+    font-size: 7rem !important;
+    font-family: 'FontAwesome' !important;
+}
+.contact{
+  height: 100vh;
+}
+.contact .container::after{
+    content: '';
+    display: inherit;
+    position: absolute;
+    top: 31%;
+    left: 0;
+    right: 0;
+    height: 20%;
+    background-color: #e5e5e5;
+}
+.bg-cont{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 37rem;
+    /* width: 100%; */
+}
+
+.contact h2{
+    color: var(--text-color);
+}
+
+/* color: #d7cbb7;
+font-family: aAutoSignature,sans-serif!important;
+font-size: 90px;
+
+OUR WORK
+SPEAK FOR
+ITSELF */
+
+
+.contact h3{
+    color: #d7cbb7;
+    font-family: cursive;
+    font-style: oblique;
+}
+.contact form input{
+    border-bottom: 1px solid #D0B8B0;
+    border-radius: 0;
+    border-top:none ;
+    border-right:none ;
+    border-left:none ;
+}
+.contact form textarea{
+    border-bottom: 1px solid #D0B8B0;
+    border-radius: 0;
+    border-top:none ;
+    border-right:none ;
+    border-left:none ;
+}
+
+
+#cont-btn{
+    width: 8rem;
+    background-color: transparent;
+    border: 1px solid #D0B8B0 ;
+      color: #D0B8B0;
+      transition: var(--transition);
+      /* font-weight: bold; */
+      max-width: 9rem;
+  }
+  #cont-btn:hover{
+      background-color:#D0B8B0;
+      color: var(--text-color);
+      /* border: none; */
+  }
+
+  
